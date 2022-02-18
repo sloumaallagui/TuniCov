@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+main{
+    overflow-x: hidden;
+}
+
+
+
+.select2-choices {
+    min-height: 150px;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  .select2-selection{
+    border:rgba(128, 128, 128, 0.37) solid 0.001px !important;
+  } .select2-selection--single{
+    border:rgba(128, 128, 128, 0.37) solid 0.001px !important;
+  }
+
+  .select2-search__field:focus{
+    border:rgba(128, 128, 128, 0.37) solid 0.001px !important;
+    outline: 0 !important;
+  }
+
+ .select2-selection__choice{
+     background-color: #FC5B62 !important;
+     border:rgba(128, 128, 128, 0.027) solid 0.001px !important;
+ }
+ .select2-selection--multiple{
+    border:rgba(128, 128, 128, 0.384) solid 0.01px !important;
+ }
+.select2-selection--multiple:hover{
+    border:rgba(128, 128, 128, 0.493) solid 0.001px !important;
+ }
+.select2-selection--multiple:focus{
+    border:rgba(128, 128, 128, 0.486) solid 0.001px !important;
+ }
